@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-LABEL maintainer="refractory"
+LABEL maintainer="docfactory"
 
 # To get rid of error messages like "debconf: unable to initialize frontend: Dialog":
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
