@@ -9,6 +9,7 @@ Why do you need it? Just ignore this repo if you don't know the answer.
 * **Kingston**: `docfactory/sn-midserver:kingston`
 * **Kingston for armhf (Raspberry Pi)**: `docfactory/sn-midserver:kingston`
 * **Jakarta**: `docfactory/sn-midserver:jakarta`
+* **Madrid**: `docfactory/sn-midserver:madrid`
 
 ## Get started right away
 
