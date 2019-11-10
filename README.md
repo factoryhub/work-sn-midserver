@@ -1,16 +1,14 @@
-[![License MIT](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC) [![](https://img.shields.io/docker/pulls/andrekosak/sn-midserver.svg)](https://hub.docker.com/r/andrekosak/sn-midserver 'DockerHub') [![](https://ga-beacon.appspot.com/UA-82522402-3/readme?pixel)](https://github.com/igrigorik/ga-beacon)
-
 # What is ServiceNow Mid Sever
 
-[Read here](https://docs.servicenow.com/bundle/kingston-servicenow-platform/page/product/mid-server/reference/r-MIDServer.html)
+[Read here](https://docs.servicenow.com/bundle/madrid-servicenow-platform/page/product/mid-server/reference/r-MIDServer.html)
 
 Why do you need it? Just ignore this repo if you don't know the answer.
 
-# TL;DR;
+# Version;
 
-* **Kingston**: `andrekosak/sn-midserver:kingston`
-* **Kingston for armhf (Raspberry Pi)**: `andrekosak/sn-midserver:kingston-armhf`
-* **Jakarta**: `andrekosak/sn-midserver:jakarta`
+* **Kingston**: `docfactory/sn-midserver:kingston`
+* **Kingston for armhf (Raspberry Pi)**: `docfactory/sn-midserver:kingston`
+* **Jakarta**: `docfactory/sn-midserver:jakarta`
 
 ## Get started right away
 
