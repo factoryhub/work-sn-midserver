@@ -4,7 +4,7 @@
 
 Why do you need it? Just ignore this repo if you don't know the answer.
 
-# Version;
+# Version
 
 * **Kingston**: `docfactory/sn-midserver:kingston`
 * **Kingston for armhf (Raspberry Pi)**: `docfactory/sn-midserver:kingston`
