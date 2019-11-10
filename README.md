@@ -18,7 +18,7 @@ $ docker run -d --name sn-mid-server \
   -e 'SN_USER=username' \
   -e 'SN_PASSWD=userpassword' \
   -e 'SN_MID_NAME=sn-mid-server' \
-  andrekosak/sn-midserver:kingston
+  docfactory/sn-midserver:madrid
 ```
 
 or using Docker Compose:
@@ -28,7 +28,7 @@ version: '3'
 services:
   midserver:
     container_name: sn-midserver
-    image: andrekosak/sn-midserver:kingston
+    image: docfactory/sn-midserver:madrid
     network_mode: host
     environment:
       - SN_URL=https://dev00000.service-now.com
@@ -46,7 +46,7 @@ $ docker run -d --name sn-mid-server \
   -e 'SN_PASSWD=password' \
   -e 'SN_MID_NAME=my-mid-server' \
   -v './sn-midserver/logs:/opt/agent/logs' \
-  andrekosak/sn-midserver:kingston
+  docfactory/sn-midserver:madrid
 ```
 
 or using Docker Compose:
