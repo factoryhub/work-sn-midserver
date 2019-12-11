@@ -1,16 +1,15 @@
-[![License MIT](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC) [![](https://img.shields.io/docker/pulls/andrekosak/sn-midserver.svg)](https://hub.docker.com/r/andrekosak/sn-midserver 'DockerHub') [![](https://ga-beacon.appspot.com/UA-82522402-3/readme?pixel)](https://github.com/igrigorik/ga-beacon)
-
 # What is ServiceNow Mid Sever
 
-[Read here](https://docs.servicenow.com/bundle/kingston-servicenow-platform/page/product/mid-server/reference/r-MIDServer.html)
+[Read here](https://docs.servicenow.com/bundle/madrid-servicenow-platform/page/product/mid-server/reference/r-MIDServer.html)
 
 Why do you need it? Just ignore this repo if you don't know the answer.
 
-# TL;DR;
+# Version
 
-* **Kingston**: `andrekosak/sn-midserver:kingston`
-* **Kingston for armhf (Raspberry Pi)**: `andrekosak/sn-midserver:kingston-armhf`
-* **Jakarta**: `andrekosak/sn-midserver:jakarta`
+* **Kingston**: `docfactory/sn-midserver:kingston`
+* **Kingston for armhf (Raspberry Pi)**: `docfactory/sn-midserver:kingston`
+* **Jakarta**: `docfactory/sn-midserver:jakarta`
+* **Madrid**: `docfactory/sn-midserver:madrid`
 
 ## Get started right away
 
@@ -20,7 +19,7 @@ $ docker run -d --name sn-mid-server \
   -e 'SN_USER=username' \
   -e 'SN_PASSWD=userpassword' \
   -e 'SN_MID_NAME=sn-mid-server' \
-  andrekosak/sn-midserver:kingston
+  docfactory/sn-midserver:madrid
 ```
 
 or using Docker Compose:
@@ -30,7 +29,7 @@ version: '3'
 services:
   midserver:
     container_name: sn-midserver
-    image: andrekosak/sn-midserver:kingston
+    image: docfactory/sn-midserver:madrid
     network_mode: host
     environment:
       - SN_URL=https://dev00000.service-now.com
@@ -48,7 +47,7 @@ $ docker run -d --name sn-mid-server \
   -e 'SN_PASSWD=password' \
   -e 'SN_MID_NAME=my-mid-server' \
   -v './sn-midserver/logs:/opt/agent/logs' \
-  andrekosak/sn-midserver:kingston
+  docfactory/sn-midserver:madrid
 ```
 
 or using Docker Compose:
