@@ -11,6 +11,7 @@ RUN apt-get -q update && apt-get install -qy unzip \
     supervisor \
     xmlstarlet \
     vim \
+    nano \
     wget && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
