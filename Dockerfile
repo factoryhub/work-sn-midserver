@@ -12,7 +12,6 @@ RUN apt-get -q update && apt-get install -qy unzip \
     xmlstarlet \
     vim \
     wget && \
-    nano && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /tmp/*
