@@ -18,7 +18,7 @@ RUN apt-get -q update && apt-get install -qy unzip \
     rm -rf /tmp/*
 
 RUN wget --no-check-certificate \
-        https://install.service-now.com/glide/distribution/builds/package/mid/2019/11/28/mid.newyork-06-26-2019__patch4-11-21-2019_11-28-2019_1046.linux.x86-64.zip \
+        https://install.service-now.com/glide/distribution/builds/package/mid/2019/12/24/mid.newyork-06-26-2019__patch4-hotfix2-12-21-2019_12-24-2019_1137.linux.x86-64.zip \
         -O /tmp/mid.zip && \
         unzip -d /opt /tmp/mid.zip && \
         mv /opt/agent/config.xml /opt/ && \
